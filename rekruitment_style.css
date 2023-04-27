@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(249, 249, 249);
+}
+
+.navbar {
+    height: 60px;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.30);
+}
+
+.navbar-brand {
+    margin-left: 20px;
+    margin-bottom: 3px;
+}
+
+.navbar-brand img{
+    width: 128px;
+    height: 29px;
+}
+
+.navbar-nav{
+    position: absolute;
+    right: 20px;
+}
+
+.logo {
+    padding-left: 32px;
+    padding-top: 15.5px;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 58% auto;
+}
+
+.icon {
+    margin-left: -75px;
+}
+
+.formulir {
+    background-color: white;
+    width: 514px;
+    height: 700px;
+    box-shadow: 0px 5px 13px 0px rgba(0,0,0,0.10);
+    border-width: 1px;
+    margin-left: -35px;
+    margin-top: 50px;
+}
+
+.badan-formulir {
+    margin: 31px 10px 12px 23px;
+}
+
+.form-description {
+    font-size: 1.5rem;
+    margin-top: 14px;
+    margin-bottom: 20px;
+ 
+}
+
+.form-description .title {
+    font-weight: 600px;
+    color: rgb(69, 65, 65);
+    letter-spacing: 0.5px;
+}
+
+.caption {
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+.form-group{
+    padding: 0;
+    margin-bottom: 12px;
+    border: 0 !important;
+}
+
+.form-control {
+    margin-top: 10px;
+    text-align: left;
+    width: 465px;
+    height: 33px;
+    border: 1px solid rgb(219, 214, 214);
+    border-radius: 5px;
+}
+
+input {
+    overflow: visible;
+}
+
+.active {
+    font-size: 13px;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+button {
+    background-color: #007bff;
+    width: 465px;
+    height: 29px;
+    color: white;
+    border: none;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #116aca;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.footer {
+    margin-top: 50px;
+
+}
+
+.grid-sosmed {
+    display: flex;
+    grid-template-columns: auto auto auto auto ;
+    width: 466px;
+    height: 48px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.grid-icon {
+    padding: 0px 47px 0px 0px;
+}
+
+.grid-icon img {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+.grid-icon img:hover {
+    opacity: 0.5;
+    filter: hue-rotate(90deg);
+}
+
+.text-neuron {
+    text-align: center;
+}
+
+.neuron {
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    color: black;
+}
+
+.neuron:hover {
+    color: #116aca;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .icon {
+        display: none;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 60px;
+        background-color: white;
+        box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.30);
+        margin-bottom: 50px;
+    }
+
+    .container {
+        justify-content: center;
+
+    }
+
+    .formulir {
+        background-color: white;
+        width: 514px;
+        height: 700px;
+        box-shadow: 0px 5px 13px 0px rgba(0,0,0,0.10);
+        border-width: 1px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        justify-content: left;
+    }
+
+}
